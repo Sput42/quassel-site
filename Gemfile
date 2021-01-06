@@ -1,9 +1,9 @@
 # frozen_string_literal: true
 
 source "https://rubygems.org"
-
 # Jekyll and relevant plugins
-gem "jekyll"
+#gem "jekyll"
+gem "github-pages", group: :jekyll_plugins
   gem "jekyll-archives"
   gem "jekyll-feed"
   gem "jekyll-gist"
